@@ -6,12 +6,16 @@ public class CoffeeTouchscreenAdapter implements CoffeeMachineInterface {
 		this.machine = machine;
 	}
 	
-	public void chooseFirstSelection() {
-		machine.selectA();
+	public boolean chooseFirstSelection() {
+		if (machine.selectA())
+		return true;
+		return false;
 	}
 	
-	public void chooseSecondSelection() {
-		machine.selectB();
+	public boolean chooseSecondSelection() {
+		if (machine.selectB())
+		return true;
+		return false;
 }
 
 

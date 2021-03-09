@@ -1,7 +1,7 @@
 public interface CoffeeMachineInterface {
 
-	public void chooseFirstSelection();
-	public void chooseSecondSelection();
+	public boolean chooseFirstSelection();
+	public boolean chooseSecondSelection();
 		
 
 }

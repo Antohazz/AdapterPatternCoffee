@@ -1,11 +1,13 @@
 public class OldCoffeeMachine {
 
-	public void selectA(){
+	public boolean selectA(){
 	System.out.println("Old selectA");
+	return true;
 	}
 	
-	public void selectB(){
+	public boolean selectB(){
 		System.out.println("Old selectB");
+		return true;
 	}
 
 
